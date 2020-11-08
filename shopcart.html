@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="時尚衣著，A瞇服飾">
+    <meta property="og:title" content="A瞇服飾 | 首頁">
+    <meta property="og:description" content="時尚衣著，A瞇服飾">
+    <meta property="og:image" content="https://bit.ly/2OhbMHr">
+    <meta property="og:type" content="website">
+    <title>A瞇服飾 - 購物車</title>
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+
+            <button class="navbar-toggler border-0 " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand " href="index.html">
+                <img src="images/logo.png" height="40" alt="">
+            </a>
+
+            <a class=" nav-link d-flex align-items-center order-md-1" href="shopcart.html"
+                class="btn btn-transparent text-primary ">
+                <i class="fas fa-shopping-cart h5 mt-1 ml-2 "></i>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="products.html">服飾</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">登入</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="container my-md-5">
+        <div class="row carts">
+            <div class="col-md-8">
+                <!-- 您的購物車  -->
+                <h1 class="bg-accent h4 text-center py-4 text-primary font-weight-bold">您的購物車</h1>
+                <!-- product 1  -->
+                <div class="cart-row d-flex flex-column flex-md-row py-3 align-items-center justify-content-between">
+                    <div class="cart-bg d-flex  align-items-center  justify-content-start">
+
+                        <div class="flex-grow-1 flex-md-grow-0 cart-img bg-cover mr-5 "
+                            style="background-image: url(images/product1.jpg);"></div>
+
+                        <div class="d-flex flex-column flex-md-row align-items-md-center ">
+                            <div class="mr-9">
+                                <p class="h5">金龜西裝</p>
+                                <p>NT$ 4,500</p>
+                            </div>
+                            <div class="cart-control input-group">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn  text-primary border-accent"><i
+                                            class="fas fa-minus"></i></button>
+                                </div>
+                                <input class="cart-input text-center " type="text" class="form-control" value="1">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn  text-primary  border-accent"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cart-section d-flex justify-content-between flex-md-row-reverse ">
+                        <a href="#removeModal" class="text-muted" data-toggle="modal" data-title="確認刪除 金龜西裝1件">
+                            <span class="btn text-primary"><i class="far fa-trash-alt"></i></span>
+                        </a>
+                        <strong class="mr-3 cart-price">NT$ 4,500</strong>
+                    </div>
+
+                </div>
+
+                <!-- product 2  -->
+                <div class="cart-row d-flex flex-column flex-md-row py-3 align-items-center justify-content-between">
+                    <div class="cart-bg d-flex  align-items-center  justify-content-start">
+
+                        <div class="flex-grow-1 flex-md-grow-0 cart-img bg-cover mr-5 "
+                            style="background-image: url(images/product2.jpg);"></div>
+
+                        <div class="d-flex flex-column flex-md-row align-items-md-center ">
+                            <div class="mr-9">
+                                <p class="h5">粉嫩毛衣</p>
+                                <p>NT$ 999</p>
+                            </div>
+                            <div class="cart-control input-group">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn  text-primary border-accent"><i
+                                            class="fas fa-minus"></i></button>
+                                </div>
+                                <input class="cart-input text-center " type="text" class="form-control" value="1">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn  text-primary  border-accent"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cart-section d-flex justify-content-between flex-md-row-reverse ">
+                        <a href="#removeModal" class="text-muted" data-toggle="modal" data-title="確認刪除 粉嫩毛衣1件">
+                            <span class="btn text-primary"><i class="far fa-trash-alt"></i></span>
+                        </a>
+                        <strong class="mr-3 cart-price">NT$ 999</strong>
+                    </div>
+
+                </div>
+
+                <!-- product 3  -->
+                <div class="cart-row d-flex flex-column flex-md-row py-3 align-items-center justify-content-between">
+                    <div class="cart-bg d-flex  align-items-center  justify-content-start">
+
+                        <div class="flex-grow-1 flex-md-grow-0 cart-img bg-cover mr-5 "
+                            style="background-image: url(images/product3.jpg);"></div>
+
+                        <div class="d-flex flex-column flex-md-row align-items-md-center ">
+                            <div class="mr-9">
+                                <p class="h5">休閒襯衫</p>
+                                <p>NT$ 1,999</p>
+                            </div>
+                            <div class="cart-control input-group">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn  text-primary border-accent"><i
+                                            class="fas fa-minus"></i></button>
+                                </div>
+                                <input class="cart-input text-center " type="text" class="form-control" value="2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn  text-primary  border-accent"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cart-section d-flex justify-content-between flex-md-row-reverse ">
+                        <a href="#removeModal" class="text-muted" data-toggle="modal" data-title="確認刪除 休閒襯衫2件">
+                            <span class="btn text-primary"><i class="far fa-trash-alt"></i></span>
+                        </a> 
+                        <strong class="mr-3 cart-price">NT$ 3,998</strong>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="cart-msg-bg py-3 p-md-3">
+                    <h2 class="cart-msg-title h4 text-center py-3 font-weight-bold">訂單摘要</h2>
+                    <hr class="border-white mt-0">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>小計</span>
+                        <span>NT$ 9,497</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>運費</span>
+                        <span>NT$ 100</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h5 font-weight-bold">總計</span>
+                        <span class="h5 font-weight-bold">NT$ 9,597</span>
+                    </div>
+                </div>
+                <div class="negative-margin mx-md-0 ">
+                    <a class="cart-msg-btn btn btn-accent btn-block btn-lg py-3 text-primary font-weight-bold rounded-0"
+                        href="checkout-1.html">結帳</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 訂閱 -->
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-5 d-flex align-items-center  ">
+                    <img class="mr-2" src="images/favicon.png" width="60px" height="60px" alt="">
+                    <span class="h4 mb-0">訂閱你我的時尚郵件</span>
+                </div>
+                <div class="col-md-5 ">
+                    <form action="index.html">
+                        <div class="input-group">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text bg-accent" id="basic-addon1"><i
+                                        class="fas fa-envelope"></i></span>
+                            </div>
+                            <input type="email" name="email" class="form-control  bg-accent"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-light" type="button" id="button-addon2"><i
+                                        class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-accent py-4 text-primary ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex  flex-column justify-content-between">
+                    <div>
+                        <img src="images/logo.png" height="40px" alt="">
+                    </div>
+                    <ul class="list-unstyled mt-5">
+                        <li>09-1234-5678</li>
+                        <li>amyapparel@gmail.com</li>
+                        <li>800 宜蘭縣時尚區幸福路520號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-right d-none d-md-block">
+                    <img src="images/txt.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-5 mt-2">
+                    <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
+                <div class="col-md-5 text-md-right mt-2">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -remove -->
+    <div class="modal fade" id="removeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">刪除商品</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    是否確認刪除商品
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">否</button>
+                    <button type="button" class="btn btn-outline-primary">是</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#removeModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget) // 選則當初觸發事件的按鈕
+                var title = button.data('title') // 使用 data-* 來取得特定內容
+
+                var modal = $(this)
+                modal.find('.modal-title').text( title) // 寫入資料
+            })
+        });
+    </script>
+
+</body>
+
+</html>

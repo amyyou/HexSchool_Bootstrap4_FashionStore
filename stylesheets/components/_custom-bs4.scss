@@ -1,0 +1,18 @@
+
+//login 連結按鈕
+.btn-brand-light{
+    @include button-variant($white,rgba($primary ,.5) );
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $accent;
+            opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $accent;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+            color: $accent;
+ }

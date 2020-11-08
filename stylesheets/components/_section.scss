@@ -1,0 +1,32 @@
+//Index 文字圖片排版
+
+.section{
+   
+    $vertical-content-height:420px;
+
+    .vertical-block{
+        @include media-breakpoint-up(md) {
+          margin-top: -24px;
+          margin-bottom: -24px;
+      }
+    }
+
+     .vertical-content{
+
+       @include media-breakpoint-up(md) {
+         writing-mode: vertical-rl;
+         line-height: 2.5;
+         height: $vertical-content-height;
+
+      }
+    }
+
+       .vertical-img{
+       @include media-breakpoint-down(sm) {
+         max-height: 250px;
+         width: 100%;
+      }
+    }
+
+
+}

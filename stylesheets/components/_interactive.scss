@@ -1,0 +1,20 @@
+
+//點擊心型
+
+.ui-checkbox-section{
+    cursor: pointer;
+
+    .ui-checkbox,.ui-open{
+        display: none;
+    }
+    
+    .ui-checkbox:checked{
+        & ~ .ui-open{
+            display: block;
+        }
+         & ~ .ui-close{
+            display: none;
+        }
+    }
+
+}

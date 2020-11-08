@@ -1,0 +1,23 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+//區塊式內容
+@import "components/header"; //index : header
+@import "components/section"; //index : main section 1 / main section 2
+@import "components/carts";
+
+//元件
+@import "components/item_card";//index : product
+@import "components/interactive";//index : product heart  - 互動元件
+@import "components/form-square"; 
+@import "components/custom-bs4"; //Bootstrap 4 調整
+@import "components/process-step"; //checkout
+
+//通用類別
+@import "components/utilities";
+
+

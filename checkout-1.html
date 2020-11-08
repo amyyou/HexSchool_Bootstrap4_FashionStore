@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="時尚衣著，A瞇服飾">
+    <meta property="og:title" content="A瞇服飾 | 首頁">
+    <meta property="og:description" content="時尚衣著，A瞇服飾">
+    <meta property="og:image" content="https://bit.ly/2OhbMHr">
+    <meta property="og:type" content="website">
+    <title>A瞇服飾 - 結帳步驟ㄧ</title>
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+
+            <button class="navbar-toggler border-0 " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand " href="index.html">
+                <img src="images/logo.png" height="40" alt="">
+            </a>
+
+            <a class="nav-link d-flex align-items-center order-md-1" href="shopcart.html"
+                class="btn btn-transparent text-primary "><i class="fas fa-shopping-cart h5 mt-1 ml-2 "></i>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="products.html">服飾</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">登入</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- checkout -->
+    <section class="container  my-lg-6">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="negative-margin mx-lg-0  bg-primary p-5 ">
+                    <!-- 運送 -->
+                    <div class="form-row mb-5">
+                        <div class="col-6">
+                            <h1 class="text-light font-weight-bold">運送</h1>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <div class="process-step w-100">
+                                <div class="step-circle active"></div>
+                                <div class="step-circle"></div>
+                                <div class="step-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 姓氏/名字 -->
+                    <div class="form-row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="h4 text-light font-weight-bold" for="lastname"">姓氏</label>
+                                <input type=" text"
+                                    class="form-control form-control-lg rounded-0 bg-light text-primary" id="lastname"
+                                    placeholder="游">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="h4 text-light font-weight-bold" for="firstname"">名字</label>
+                                                        <input type=" text"
+                                    class="form-control form-control-lg rounded-0 bg-light text-primary" id="firstname"
+                                    placeholder="子萱">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 電話 -->
+                    <div class="form-group">
+                        <label class="h4 text-light font-weight-bold" for="phone""">名字</label>
+                        <input type=" text" class="form-control form-control-lg rounded-0 bg-light text-primary"
+                            id="phone" placeholder="0912-345-678">
+                    </div>
+                    <!-- 地址 -->
+                    <label class="h4 text-light font-weight-bold" for="city"">地址</label>
+                    <div class=" form-row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-control form-control-lg rounded-0 bg-light text-primary"
+                                    id="exampleFormControlSelect1">
+                                    <option value="宜蘭縣">宜蘭縣</option>
+                                    <option value="高雄市">高雄市</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <select class="form-control form-control-lg rounded-0 bg-light text-primary"
+                                    id="exampleFormControlSelect1">
+                                    <option value="時尚區">時尚區</option>
+                                    <option value="新興區">新興區</option>
+                                </select>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <input type=" text" class="form-control form-control-lg rounded-0 bg-light text-primary"
+                        id="address" placeholder="幸福路 520 號">
+                </div>
+
+            </div>
+
+            <div class="negative-margin mx-lg-0">
+                <a href="checkout-2.html"
+                    class="btn btn-lg rounded-0 btn-block btn-accent text-primary text-size-h4 py-3  ">下一步</a>
+            </div>
+
+        </div>
+        <div class="col-lg-4 d-none d-lg-block">
+            <!-- 訂單摘要 -->
+            <div class="card border-accent  mb-3">
+                <div class="card-header bg-accent text-primary text-center h2 font-weight-bold">訂單摘要</div>
+                <div class="card-body text-primary">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>小計</span>
+                        <span>NT$ 9,497</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>運費</span>
+                        <span>NT$ 100</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="h5 font-weight-bold">總計</span>
+                        <span class="h5 font-weight-bold">NT$ 9,597</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 購物清單 -->
+            <div class="card border-accent  mb-3">
+                <div class="card-header bg-accent text-primary text-center h2 font-weight-bold">訂單摘要</div>
+                <div class="card-body text-primary">
+                    <!-- product 1 -->
+                    <div class="d-flex align-items-center">
+                        <img class="mr-2 bg-cover" src="images/product1.jpg" width="120px" height="80px" alt="">
+                        <div>
+                            <p class="mb-0">金龜西裝 (1)</p>
+                            <strong class="h5">NT$ 4,500</strong>
+                        </div>
+                    </div>
+
+                    <!-- product 2 -->
+                    <div class="d-flex align-items-center mt-3">
+                        <img class="mr-2 bg-cover" src="images/product2.jpg" width="120px" height="80px" alt="">
+                        <div>
+                            <p class="mb-0">粉嫩毛衣 (1)</p>
+                            <strong class="h5">NT$ 999</strong>
+                        </div>
+                    </div>
+
+                    <!-- product 3 -->
+                    <div class="d-flex align-items-center mt-3">
+                        <img class="mr-2 bg-cover" src="images/product3.jpg" width="120px" height="80px" alt="">
+                        <div>
+                            <p class="mb-0">休閒襯衫 (2)</p>
+                            <strong class="h5">NT$ 3,998</strong>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- 訂閱 -->
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-5 d-flex align-items-center  ">
+                    <img class="mr-2" src="images/favicon.png" width="60px" height="60px" alt="">
+                    <span class="h4 mb-0">訂閱你我的時尚郵件</span>
+                </div>
+                <div class="col-md-5 ">
+                    <form action="index.html">
+                        <div class="input-group">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text bg-accent" id="basic-addon1"><i
+                                        class="fas fa-envelope"></i></span>
+                            </div>
+                            <input type="email" name="email" class="form-control  bg-accent"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-light" type="button" id="button-addon2"><i
+                                        class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-accent py-4 text-primary ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex  flex-column justify-content-between">
+                    <div>
+                        <img src="images/logo.png" height="40px" alt="">
+                    </div>
+                    <ul class="list-unstyled mt-5">
+                        <li>09-1234-5678</li>
+                        <li>amyapparel@gmail.com</li>
+                        <li>800 宜蘭縣時尚區幸福路520號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-right d-none d-md-block">
+                    <img src="images/txt.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-5 mt-2">
+                    <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                </div>
+                <div class="col-md-5 text-md-right mt-2">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

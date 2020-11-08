@@ -1,0 +1,59 @@
+
+//產品項目
+
+.item-card{
+    
+    .item-img{
+        height: 315px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+    }
+
+    .item-tag{
+       writing-mode: vertical-lr;
+       background-color: $primary;
+       color: $light;
+       padding: 16px 10px;
+
+       position: absolute;
+       top: 0;
+       left: 20px;
+    }
+
+    .item-icon{
+        color: $light; 
+        font-size:22px;
+  
+       position: absolute;
+       top: 20px;
+       right: 22px;
+    }
+
+
+    .item-body{
+        border: 1px solid rgba($primary, .5);
+    }
+    .item-name{
+        border-right: 1px solid rgba($primary, .5);
+        padding-top: 14px;
+        padding-bottom: 14px;
+        font-size: $font-size-lg;
+    }
+
+    .item-price{
+        font-size: $font-size-lg;
+
+    }
+
+    .item-btn{
+        height: 65px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 48px;
+        font-weight: bold;
+    }
+
+
+}
